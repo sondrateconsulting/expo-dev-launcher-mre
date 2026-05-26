@@ -75,7 +75,7 @@ so that it runs before the build phase that depends on its outputs.
 
 ## Root cause
 
-The phase is injected here in [`expo-dev-launcher/plugin/src/withDevLauncher.ts`](https://github.com/expo/expo/blob/main/packages/expo-dev-launcher/plugin/src/withDevLauncher.ts):
+The phase is injected here in [`expo-dev-launcher/plugin/src/withDevLauncher.ts#L47-L85`](https://github.com/expo/expo/blob/6dfb0e4c958a1ea1d66d3f7952494ac58430ad45/packages/expo-dev-launcher/plugin/src/withDevLauncher.ts#L47-L85) (pinned to the `expo-dev-launcher@56.0.15` publish commit):
 
 ```ts
 project.addBuildPhase([], 'PBXShellScriptBuildPhase', buildPhaseName, nativeTargetId, {
