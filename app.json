@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "expo-dev-launcher-mre",
+    "slug": "expo-dev-launcher-mre",
+    "version": "0.0.0",
+    "ios": {
+      "bundleIdentifier": "com.example.expodevlauncherbug"
+    },
+    "android": {
+      "package": "com.example.expodevlauncherbug"
+    }
+  }
+}

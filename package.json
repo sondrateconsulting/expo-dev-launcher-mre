@@ -1,0 +1,16 @@
+{
+  "name": "expo-dev-launcher-mre",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "expo prebuild --clean --platform ios --no-install",
+    "verify-bug": "./scripts/verify-bug.sh"
+  },
+  "dependencies": {
+    "expo": "56.0.4",
+    "expo-dev-client": "56.0.15",
+    "react": "19.2.3",
+    "react-native": "0.85.3"
+  }
+}
